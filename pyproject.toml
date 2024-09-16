@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "cdse-stac-api"
+version = "0.1.0"
+description = ""
+authors = ["jzvolensky <juro.zvolensky@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fsspec = "^2024.9.0"
+pystac-client = "^0.8.3"
+ipykernel = "^6.29.5"
+s3fs = "^2024.9.0"
+xarray = "^2024.9.0"
+requests = "^2.32.3"
+netcdf4 = "^1.7.1.post2"
+pandas = "^2.2.2"
+numpy = "^2.1.1"
+zarr = "^2.18.3"
+h5netcdf = "^1.3.0"
+rioxarray = "^0.17.0"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
